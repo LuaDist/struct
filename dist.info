@@ -1,0 +1,12 @@
+name = "struct"
+version = "1.4"
+
+desc = "A library to convert Lua values to and from C structs"
+author = "Roberto Ierusalimschy"
+license = "MIT/X11"
+url = "http://www.inf.puc-rio.br/~roberto/struct/"
+maintainer = "Peter Drahoš"
+
+depends = {
+  "lua >= 5.1, < 5.3"
+}
