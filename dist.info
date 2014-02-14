@@ -1,0 +1,28 @@
+type = "x86"
+arch = "Windows"
+author = "Roberto Ierusalimschy"
+depends = {
+[[lua >= 5.1, < 5.3]],
+}
+
+desc = "A library to convert Lua values to and from C structs"
+version = "1.4"
+maintainer = "Peter Drahoš"
+files = {
+Runtime = {
+[[lib\lua\struct.dll]],
+}
+,
+Documentation = {
+[[share\struct\doc\struct.html]],
+}
+,
+Test = {
+[[share\struct\test\teststruct.lua]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "struct"
+url = "http://www.inf.puc-rio.br/~roberto/struct/"
